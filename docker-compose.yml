@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  stockspotter.api:
+    image: stockspotter-api-image
+    build:
+      context: ./StockSpotter.API
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+
+  stockspotter.clientapp:
+    image: stockspotter-clientapp-image
+    build:
+      context: ./StockSpotter.ClientApp
+      dockerfile: Dockerfile
+    ports:
+      - "4200:4200"
