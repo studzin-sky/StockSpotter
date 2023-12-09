@@ -1,0 +1,53 @@
+# Node modules and Angular build output
+StockSpotter.ClientApp/node_modules/
+StockSpotter.ClientApp/dist/
+StockSpotter.ClientApp/tmp/
+StockSpotter.ClientApp/out-tsc/
+StockSpotter.ClientApp/bazel-out/
+StockSpotter.ClientApp/.angular/cache
+
+# .NET build output
+**/bin/
+**/obj/
+**/out/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.ds_store
+*.vs/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/[Xx]64/
+**/[Xx]86/
+**/[Bb]uild/
+**/logs/
+
+# IDE-specific files (Visual Studio, VS Code, Sublime, etc.)
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Node and Angular specific files
+npm-debug.log
+yarn-error.log
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
