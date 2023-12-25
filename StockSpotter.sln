@@ -10,27 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockSpotter.API", "StockSpotter.API\StockSpotter.API.csproj", "{07D425F0-D94B-4D47-9953-46A665E249CD}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StockSpotter.ClientApp", "StockSpotter.ClientApp\", "{09D7B872-8F36-4836-884B-DE034E7F55C3}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_56496"
-		Debug.AspNetCompiler.PhysicalPath = "StockSpotter.ClientApp\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56496\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_56496"
-		Release.AspNetCompiler.PhysicalPath = "StockSpotter.ClientApp\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56496\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "56496"
-		SlnRelativePath = "StockSpotter.ClientApp\"
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
